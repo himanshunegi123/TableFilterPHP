@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+.header {
+    width:100%;
+    height: 10vh;
+    
+}
+.head1 {
+    width:30%;
+    height: 10vh;
+    float: left;
+    padding-bottom:3vh;
+
+}
+.head2 {
+    width:60%;
+    height: 10vh;
+    float: right;
+    padding-top:3vh;
+}
+.head2 a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    padding: 2%;
+
+}
+.electronics, .Jewelry {
+    background-color: black;
+    width:100%;
+    height: 10vh;
+    text-align: center;
+    color: blue;
+}
+
+.Television, .mobile, .Earings, .Neklaces {
+    width: 100%;
+    height:7vh;
+    background-color: green;
+    text-align: center;
+    color: blue;
+}
+
+.products1,.products2,.products3,.products4 {
+    width:100%;
+    height:80vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.img1,.img2, .img3 {
+    width:70%;
+    height:30vh;
+    margin-left:10%;
+    margin-right: 10%;
+    background-image: url("http://192.168.2.49/PhpTask/ShopingCart/images/t.png");
+    background-position: fix;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img11,.img22, .img33   {
+    width:70%;
+    height:30vh;
+    margin-left:10%;
+    margin-right: 10%;
+    background-image: url("http://192.168.2.49/PhpTask/ShopingCart/images/app.png");
+    background-position: fix;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img111, .img222, .img333 {
+    width:70%;
+    height:30vh;
+    margin-left:10%;
+    margin-right: 10%;
+    background-image: url("http://192.168.2.49/PhpTask/ShopingCart/images/j1.jpeg");
+    background-position: fix;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img1111, .img2222,  .img3333{
+    width:70%;
+    height:30vh;
+    margin-left:10%;
+    margin-right: 10%;
+    background-image: url("http://192.168.2.49/PhpTask/ShopingCart/images/j2.png");
+    background-position: fix;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.p1,.p11,.p111,.p1111 {
+    width:33.33%;
+}
+.p2,.p22,.p222,.p2222 {
+    width:33.33%;
+}
+.p3,.p33,.p333,.p3333 {
+    width:33.33%;
+}
